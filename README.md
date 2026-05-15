@@ -35,38 +35,9 @@ Công cụ mô phỏng quy trình kiểm tra bảo mật cơ bản: quét mạng
 
 ## 🧩 Sơ đồ hoạt động
 
-```
-Khởi động tool
-      │
-      ▼
-Quét WiFi xung quanh (scan)
-      │
-      ▼
-Hiển thị danh sách mạng (SSID, BSSID, Signal, Security)
-      │
-      ▼
-Người dùng chọn Network ID
-      │
-      ▼
-Xác nhận (y / n / r)
-      │
-   ┌──┴──────────────────┐
-   ▼                     ▼
-  (n) Huỷ             (y) Bắt đầu kiểm tra
-                         │
-                         ▼
-               Đọc từng dòng trong wordlist
-                         │
-                         ▼
-               Thử kết nối với mật khẩu đó
-                         │
-                  ┌──────┴──────┐
-                  ▼             ▼
-              Thành công    Thất bại → thử tiếp
-                  │
-                  ▼
-           In ra mật khẩu tìm được ✅
-```
+<p align="center">
+  <img src="https://github.com/khanhly-dn/WiFi_Penetration_Testing/blob/main/SDHD.png?raw=true" width="700" alt="Sơ đồ hoạt động" />
+</p>
 
 ---
 
